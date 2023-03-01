@@ -13,7 +13,7 @@
                               ░                                                                                                     
                                                                                                                                     
                                                                                                                                     
-This app is will show you the server status from each connected server in the globe
+This app is will show the server status from each connected server in the globe
 
 ## Available Scripts
 
