@@ -2,6 +2,16 @@
 
 This app is will show you the server status from each connected server in the globe. (**Its a fake. Its supposed to just look cool)
 
+## How to install locally
+
+1. Load code with ssh or by downloading the .zip
+
+2. Use `npm install` to install dependencies
+
+3. Use `npm start` to start the application
+
+Done
+
 ## Available Scripts
 
 ### `npm start`
