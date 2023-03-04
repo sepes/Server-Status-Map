@@ -3,6 +3,7 @@ export default [
         "id": "CHN",
         "value": 400000,
         "data": {
+            "server":"China",
             "name": "License service",
             "state": "alarm",
             "updated": "2023-02-14T09:00:00Z",
@@ -13,6 +14,7 @@ export default [
         "id": "FIN",
         "value": 0,
         "data": {
+            "server":"Finland",
             "name": "License service",
             "state": "failure",
             "updated": "2023-02-14T09:20:00Z",
@@ -23,6 +25,7 @@ export default [
         "id": "RUS",
         "value": 1000000,
         "data": {
+            "server":"Russia",
             "name": "ESG service",
             "state": "ok",
             "updated": "2023-02-14T09:17:00Z",
@@ -33,6 +36,7 @@ export default [
         "id": "USA",
         "value": 1000000,
         "data": {
+            "server":"United States",
             "name": "License service",
             "state": "ok",
             "updated": "2023-02-14T09:17:00Z",

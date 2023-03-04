@@ -1,0 +1,102 @@
+$delft_blue: '#3D405B';
+$sunset: '#f2cc8f';
+$eggshell: '#f4f1de';
+$light_sea_green: '#00b0a7';
+$burnt_sienna: '#e07a5f';
+.App {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    text-align: center;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 50px auto;
+    .top-bar {
+        grid-column: span 3;
+    }
+    height: 100vh;
+}
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {}
+
+.statusHover {
+    border: 1px solid #3D405B;
+    border-radius: 6px;
+    padding: 12px;
+    background: #F4F1DE;
+}
+
+.top-bar {
+    background: #3D405B;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.nav-bar {
+    background-color: #F4F1DE;
+}
+
+.nav-bar-item {
+    padding: 12px;
+}
+
+.nav-bar-item:hover {
+    background-color: #E07A5F;
+    transition: ease 100ms;
+}
+
+.selected {
+    background: #00b0a7;
+}
+
+.status-bar {
+    background-color: #F4F1DE;
+}
+
+.status-bar-item {
+    padding: 12px;
+    border-bottom: dotted #3D405B;
+    display: flex;
+    flex-flow: column;
+    .ok {
+        background: #00b0a7;
+    }
+    .alarm {
+        background: #f2cc8f;
+    }
+    .failure {
+        background: #E07A5F;
+    }
+}
+
+.status-name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.status-state {
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.status-info {
+    background: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    padding: 5px;
+    .info {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+.map {
+    height: 80vh;
+}
+
+
+/* #3D405B #F2CC8F #F4F1DE #00B0A7 #E07A5F */
